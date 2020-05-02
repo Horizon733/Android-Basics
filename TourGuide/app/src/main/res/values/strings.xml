@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tour Guide - Mumbai</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_food">Food</string>
+    <string name="category_attractions">Attractions</string>
+    <string name="category_events">Events</string>
+
+</resources>
