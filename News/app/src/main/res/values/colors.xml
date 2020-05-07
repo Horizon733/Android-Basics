@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#050031</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="headline">#021357</color>
+    <color name="pillar">#FF51F3</color>
+    <color name="section">#4BB3F8</color>
+    <color name="date">#8A8000</color>
+</resources>
