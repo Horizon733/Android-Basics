@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Media Player</string>
+
+    <string name="category_now_playing">Now Playing</string>
+    <string name="category_library">Library</string>
+    <string name="category_search">Search</string>
+
+    <string name="song1">Beliver</string>
+    <string name="s1_artist">Imagine Dragons</string>
+    <string name="song2">Shape of You</string>
+    <string name="s2_artist">Ed Sheeran</string>
+    <string name="song3">Zing Gat</string>
+    <string name="s3_artist">Ajay Vijay</string>
+    <string name="song4">Legendary</string>
+    <string name="s4_artist">The Score</string>
+    <string name="song5">I Luv Cheap Thrill</string>
+    <string name="s5_artist">Sia</string>
+    <string name="song6">Temperature</string>
+    <string name="s6_artist">Sean Paul</string>
+    <string name="song7">We Will Rock You</string>
+    <string name="s7_artist">Queens</string>
+    <string name="song8">Ice and Fire Song</string>
+    <string name="s8_artist">Ramin Djawadi</string>
+    <string name="song9">Venom</string>
+    <string name="s9_artist">Eminem</string>
+    <string name="song10">Don\'t Stop The Devil</string>
+    <string name="s10_artist">Dead Posey</string>
+</resources>

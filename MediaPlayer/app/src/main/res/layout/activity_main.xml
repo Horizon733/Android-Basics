@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#150017"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+
+        app:cardBackgroundColor="@color/category_colors"
+        card_view:cardCornerRadius="22dp"
+        >
+        <TextView
+            android:id="@+id/now_playing"
+            style="@style/CategoryStyle"
+
+            android:text="@string/category_now_playing" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+
+        app:cardBackgroundColor="@color/category_colors"
+        card_view:cardCornerRadius="22dp"
+        >
+        <TextView
+            android:id="@+id/library"
+            style="@style/CategoryStyle"
+
+            android:text="@string/category_library" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+
+        app:cardBackgroundColor="@color/category_colors"
+        card_view:cardCornerRadius="22dp"
+        >
+        <TextView
+            android:id="@+id/search"
+            style="@style/CategoryStyle"
+
+            android:text="@string/category_search" />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
