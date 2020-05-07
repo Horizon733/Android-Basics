@@ -1,10 +1,69 @@
 <resources>
     <string name="app_name">Tour Guide - Mumbai</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="category_food">Food</string>
-    <string name="category_attractions">Attractions</string>
+    <string name="category_attractions">Attraction</string>
     <string name="category_events">Events</string>
+    <string name="category_temples">Temples</string>
+
+    <string name="event1">Kala Ghoda Fest</string>
+    <string name="e1_description">Churchgate in Feb</string>
+    <string name="event2">Kite Flying</string>
+    <string name="e2_description">Whole Mumbai on 14th and 15th Jan every year</string>
+    <string name="event3">Ganesh Fest</string>
+    <string name="e3_description">Whole Mumbai in Aug-Sept</string>
+    <string name="event4">Janmashtami</string>
+    <string name="e4_description">Whole Mumbai in Aug-Sept</string>
+    <string name="event5">Diwali</string>
+    <string name="e5_description">Festival of lights in Oct</string>
+    <string name="event6">Navratri</string>
+    <string name="e6_description">Durga Maa fest and Garba nights in Oct</string>
+    <string name="event7">Christmas</string>
+    <string name="e7_description">Whole Mumbai enjoys it in Winter in Dec</string>
+
+    <string name="attraction1">Gateway</string>
+    <string name="a1_description">Loaction: Churchgate</string>
+    <string name="attraction2">Beaches</string>
+    <string name="a2_description">Location: Juhu,Charni Road,Marine Lines</string>
+    <string name="attraction3">Museum</string>
+    <string name="a3_description">Location: Churchgate</string>
+    <string name="attraction4">Tarapur Aquarium</string>
+    <string name="a4_description">Location: Marine Lines</string>
+    <string name="attraction5">Siddhi Vinayak Temple</string>
+    <string name="a5_description">Location: Dadar</string>
+    <string name="attraction6">SGN National Park</string>
+    <string name="a6_description">Location: Borivali</string>
+    <string name="attraction7">Alibag</string>
+    <string name="a7_description">Location: Get a boat from Gateway</string>
+
+    <string name="food1">Samosa</string>
+    <string name="f1_description">Potatoes with crispy outer layer</string>
+    <string name="food2">Pav Bhaji</string>
+    <string name="f2_description">Bread with spicy vegetable dish</string>
+    <string name="food3">Misal Pav</string>
+    <string name="f3_description">Bread and spicy and nutty Misal</string>
+    <string name="food4">Bhajiya Pav</string>
+    <string name="f4_description">Potatoes,Onion fried with chutney with Bread</string>
+    <string name="food5">Sev Puri</string>
+    <string name="f5_description">Puri with many topings and spicy</string>
+    <string name="food6">Pani Puri</string>
+    <string name="f6_description">Mouth watering food</string>
+    <string name="food7">Vada Pav</string>
+    <string name="f7_description">Potato vada with Bun Bread</string>
+
+    <string name="temple1">Mumbadevi temple</string>
+    <string name="t1_description">Location: Zaveri Bazar</string>
+    <string name="temple2">Babulnath Temple</string>
+    <string name="t2_description">Location: Charni Road</string>
+    <string name="temple3">Mahalakshmi temple</string>
+    <string name="t3_description">Location: Mahalaxmid</string>
+    <string name="temple4">Walkeshwar Temple</string>
+    <string name="t4_description">Location: Malabar Hill</string>
+    <string name="temple5">Swaminarayan Temple</string>
+    <string name="t5_description">Location: Bhuleshwar</string>
+    <string name="temple6">ISKCON</string>
+    <string name="t6_description">Location: Juhu</string>
+    <string name="temple7">Sri Sri Radha Gopinath Temple</string>
+    <string name="t7_description">Location: Girgaum Chowpatty</string>
 
 </resources>

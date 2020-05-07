@@ -1,25 +1,25 @@
 package com.example.tourguide;
 
 public class Items {
-    private String mItemNames;
-    private String mDescription;
+    private int mItemNames;
+    private int mDescription;
     private int mImageResourceId = NO_IMAGE_PROVIDED;
     private static final int  NO_IMAGE_PROVIDED = -1;
 
-    public Items(String itemNames,String description){
+    public Items(int itemNames,int description){
         mItemNames = itemNames;
         mDescription = description;
     }
-    public Items(String itemNames,String description,int imageResourceId){
+    public Items(int itemNames, int description, int imageResourceId){
         mItemNames = itemNames;
         mDescription = description;
         mImageResourceId = imageResourceId;
     }
 
-    public String getItemNames(){
+    public int getItemNames(){
         return mItemNames;
     }
-    public String getDescription(){return mDescription;}
+    public int getDescription(){return mDescription;}
     public int getImageResourceId(){return mImageResourceId;}
 
     public boolean hasImage(){

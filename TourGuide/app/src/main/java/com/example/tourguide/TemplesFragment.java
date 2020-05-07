@@ -12,9 +12,9 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 
-public class FoodFragment extends Fragment {
+public class TemplesFragment extends Fragment {
 
-    public FoodFragment() {
+    public TemplesFragment() {
         // Required empty public constructor
     }
 
@@ -25,16 +25,16 @@ public class FoodFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Items> words = new ArrayList<Items>();
-        words.add(new Items(R.string.food1,R.string.f1_description));
-        words.add(new Items(R.string.food2,R.string.f2_description));
-        words.add(new Items(R.string.food3,R.string.f3_description));
-        words.add(new Items(R.string.food4,R.string.f4_description));
-        words.add(new Items(R.string.food5,R.string.f5_description));
-        words.add(new Items(R.string.food6,R.string.f6_description));
-        words.add(new Items(R.string.food7,R.string.f7_description));
+        words.add(new Items(R.string.temple1,R.string.t1_description));
+        words.add(new Items(R.string.temple2,R.string.t2_description));
+        words.add(new Items(R.string.temple3,R.string.t3_description));
+        words.add(new Items(R.string.temple4,R.string.t4_description));
+        words.add(new Items(R.string.temple5,R.string.t5_description));
+        words.add(new Items(R.string.temple6,R.string.t6_description));
+        words.add(new Items(R.string.temple7,R.string.t7_description));
 
 
-        ItemAdapter adapter = new ItemAdapter(getActivity(), words, R.color.category_food);
+        ItemAdapter adapter = new ItemAdapter(getActivity(), words, R.color.category_temple);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
@@ -42,7 +42,5 @@ public class FoodFragment extends Fragment {
 
         return rootView;
     }
-
-
 
 }

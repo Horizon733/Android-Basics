@@ -20,25 +20,29 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return new AttractionsFragment();
         } else if (position == 1) {
             return new FoodFragment();
-
-        } else {
+        } else if (position == 2) {
             return new EventsFragment();
+        } else {
+            return new TemplesFragment();
         }
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
 
     }
+
     @Override
     public CharSequence getPageTitle(int position) {
         if (position == 0) {
             return mContext.getString(R.string.category_attractions);
         } else if (position == 1) {
             return mContext.getString(R.string.category_food);
-        } else {
+        } else if (position == 2) {
             return mContext.getString(R.string.category_events);
+        } else {
+            return mContext.getString(R.string.category_temples);
         }
     }
 

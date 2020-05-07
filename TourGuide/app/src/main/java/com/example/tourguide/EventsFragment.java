@@ -26,13 +26,13 @@ public class EventsFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Items> words = new ArrayList<Items>();
-        words.add(new Items("Kala Ghoda Fest","Churchgate in Feb",R.drawable.kala_ghoda));
-        words.add(new Items("Kite Flying","Whole Mumbai on 14th and 15th Jan every year",R.drawable.kite));
-        words.add(new Items("Ganesh Fest","Whole Mumbai in Aug-Sept",R.drawable.ganesha));
-        words.add(new Items("Janmashtami","Whole Mumbai in Aug-Sept",R.drawable.janmashtami));
-        words.add(new Items("Diwali","Festival of lights in Oct",R.drawable.diwali));
-        words.add(new Items("Navratri","Durga Maa fest and Garba nights in Oct",R.drawable.garba));
-        words.add(new Items("Christmas","Whole Mumbai enjoys it in Winter in Dec ",R.drawable.christmas));
+        words.add(new Items(R.string.event1,R.string.e1_description,R.drawable.kala_ghoda));
+        words.add(new Items(R.string.event2,R.string.e2_description,R.drawable.kite));
+        words.add(new Items(R.string.event3,R.string.e3_description,R.drawable.ganesha));
+        words.add(new Items(R.string.event4,R.string.e4_description,R.drawable.janmashtami));
+        words.add(new Items(R.string.event5,R.string.e5_description,R.drawable.diwali));
+        words.add(new Items(R.string.event6,R.string.e6_description,R.drawable.garba));
+        words.add(new Items(R.string.event7,R.string.e7_description,R.drawable.christmas));
 
 
 
